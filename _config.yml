@@ -9,7 +9,7 @@
 # --------------------------
 title: Recall                          # the main title
 
-tagline: Memorize anything easily with spaced repetition flashcard directly from your notes.  # it will display as the sub-title
+tagline: Memorize your notes efficiently.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Spaced repetition flashcards
@@ -24,9 +24,6 @@ avatar: /assets/img/recall.png   # support internet resources
 
 github:
   username: frenya                      # change to your github username
-
-twitter:
-  username: borecjaksvina               # change to your twitter username
 
 social:
   name: Frantisek Vymazal               # it will shows as the copyright owner in Footer
