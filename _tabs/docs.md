@@ -1,10 +1,10 @@
 ---
 title: Documentation
-icon: fas fa-life-ring
+icon: fas fa-book
 order: 2
 ---
 
-# How does it work?
+## How does it work?
 
 Write your notes in Markdown and store them in .md files.
 **Recall** will scan your workspace folders, identify possible "flashcards" and test you using spaced repetition.
@@ -12,7 +12,7 @@ Write your notes in Markdown and store them in .md files.
 Notes:
 
 - To see your note rendered as HTML, simply use the Markdown Preview functionality of VS Code.
-- For more information on Markdown, please visit [Markdown Guide](https://www.markdownguide.org/).
+- For more information on Markdown, please visit [Markdown Guide](https://www.markdownguide.org/){:target="_blank"}.
 
 ## How are flashcards identified
 
@@ -29,7 +29,7 @@ Notes:
   - the newline at the end of the bullet point also serves as a page divider
 - if a flashcard has at least two pages, it will be put in the testing queue
 
-To better understand the above, look at the practical examples in the [demo folder](https://github.com/frenya/vscode-recall/tree/master/demo).
+To better understand the above, look at the practical examples in the [demo folder](https://github.com/frenya/vscode-recall/tree/master/demo){:target="_blank"}.
 
 For example, the above screenshot comes from this paragraph
 
@@ -103,26 +103,3 @@ and correct the links in the Markdown files accordingly. You can find all the li
 In certain cases, the import fails. This is due to a bug in the EDN parser library and would be difficult to correct. As a workaround, it is possible to
 unzip the .mochi file, convert the data.edn file to JSON using [this tool](http://repo.tiye.me/mvc-works/edn-formatter/), open the JSON file in VSCode and
 run the "Recall: Convert Mochi JSON" command.
-
-# Support
-
-- File bugs, feature requests in [GitHub Issues](https://github.com/frenya/vscode-recall/issues)
-- Leave a review on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=frenya.vscode-recall)
-- Check out my [other extensions](https://marketplace.visualstudio.com/publishers/frenya)
-- If you like this extension and want to support it's further development, you can [Buy Me a Coffee](https://www.buymeacoffee.com/frenya)
-
-
-<!-- a href="https://www.buymeacoffee.com/frenya" target="_blank">
-  <img
-    src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png"
-    alt="Buy Me A Coffee"
-    style="height: 60px !important;width: 217px !important;"
-  >
-</a -->
-
-# Credits
-
-Some concepts of this extension were inspired by the [Mochi](https://mochi.cards/) application.
-Go ahead and check it out. You may find it more suitable to your needs.
-
-Please note that I am not associated with that project in any way.
