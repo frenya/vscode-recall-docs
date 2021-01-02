@@ -115,7 +115,7 @@ module Jekyll
           #   cdn.sub!(/\/$/,'') if cdn
           # end
 
-          %Q{<figure class="animated_gif_frame" data-caption="GIF#{size}"><img class="animated_gif" src="#{cdn}#{@poster}" data-source="#{cdn}#{@img}"#{width}#{height}>#{@figcap}</figure>}
+          %Q{<figure class="animated_gif_frame" data-caption="GIF#{size}"><img class="animated_gif" src="#{cdn}#{@poster}" data-source="#{cdn}#{@img}">#{@figcap}</figure>}
         else
           error || "<Error processing input, expected syntax: {% gif poster_path %}>"
         end
