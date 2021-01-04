@@ -59,13 +59,31 @@ A webview will appear show you the first page of the first card to review. You t
 - `N` - go to the next card without logging any result
 - `A` - archive card - card won't show for review anymore
 
-## **Recall** level
+## Recall level
 
 Every card has a so called "recall level" which indicates how well you remember it. It also represents the number of days after which it
 will be queued for review again.
 
 All cards start with a default recall level of 1 which means the card will be queued for review the next day. If you mark it as remembered,
 the recall level will be doubled. If you mark it as forgotten, the recall level will be halved.
+
+## Reverse testing
+
+Sometimes, you would like to test yourself in both directions. Best example of this is learning a vocabulary.
+Recall has this capability since version 0.8.0. Here's how it works:
+
+```yaml
+---
+recall: bullet+
+---
+
+- el norte :: north
+```
+
+The "+" sign indicates that you want bi-directional testing in the current file. Now, once you archive the "el norte" card (signalling to Recall that you know it well enough in one direction) it will start showing in reverse, i.e. the front page will be "north" and the back page will be "el norte". The card's badge will also indicate that.
+
+![Before](/assets/img/rev/before_scaled.png) &nbsp;&nbsp; ![After](/assets/img/rev/after_scaled.png)
+
 
 # Configuration
 
