@@ -1,7 +1,7 @@
 ---
 title: Support
 icon: fas fa-life-ring
-order: 3
+order: 4
 ---
 
 - File bugs, feature requests in [GitHub Issues](https://github.com/frenya/vscode-recall/issues){:target="_blank"}
