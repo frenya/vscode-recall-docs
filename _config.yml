@@ -30,7 +30,7 @@ social:
   email: frenya@frenya.net              # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/frenya       # change to your github homepage
+    - https://frenya.net/       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -47,7 +47,7 @@ baseurl: ''
 timezone: Europe/Prague
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'G-ZEJLPY067B'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
