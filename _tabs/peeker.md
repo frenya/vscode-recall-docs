@@ -1,10 +1,10 @@
 ---
 title: Peeker
 icon: fas fa-eye
-order: 3
+order: 10
 ---
 
-This is a nifty little extension I have created to make my life easier when studying a foreign language. 
+This is a nifty little extension I have created to make my life easier when studying a foreign language.
 Peeker is a lightweight tool with a single purpose - quickly lookup currently selected text on a predefined website.
 
 The demo below uses the Urban Dictionary. For my spanish notes, I use the following config which let's me instantly

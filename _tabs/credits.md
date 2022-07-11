@@ -1,7 +1,7 @@
 ---
 title: Credits
 icon: fas fa-hands-helping
-order: 5
+order: 50
 ---
 
 Some concepts of this extension were inspired by the [Mochi](https://mochi.cards/){:target="_blank"} application.

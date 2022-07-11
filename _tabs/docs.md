@@ -67,6 +67,8 @@ will be queued for review again.
 All cards start with a default recall level of 1 which means the card will be queued for review the next day. If you mark it as remembered,
 the recall level will be doubled. If you mark it as forgotten, the recall level will be halved.
 
+More details on the algorithm can be find [here](../spaced-repetition)
+
 ## Reverse testing
 
 Sometimes, you would like to test yourself in both directions. Best example of this is learning a vocabulary.
@@ -109,6 +111,15 @@ For example, to tell **Recall** that individual bullets should be recognized in 
 recall: bullet
 ---
 ```
+
+# Styling
+
+VSCode allows extensions to provide own CSS styling to the Markdown preview. It has several built in plugins the provide additional styling.
+If you are experiencing differences between how your notes are rendered in the Markdown preview vs. how they are rendered as cards, you
+can experiment with applying additional styles from other extensions. To do that, simply run the `Recall: Enable CSS styles from other markdown preview extensions`
+command and select which additional styles should be applied.
+
+For example, if you are using inline math formulas, you will probably need to enable the `vscode.markdown-math/notebook-out/katex.min.css` style.
 
 # Import from Mochi
 
