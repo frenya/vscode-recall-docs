@@ -19,12 +19,13 @@ When you are testing yourself, the recall level changes based on how well you re
 the recall level goes up, otherwise it goes down.
 
 **Recall** uses a simple algorithm and multiplies the current recall level by a constant and there's a constant defined in your configuration
-for each of the review results. By default, these constants are 2, 1 and 0.5, which in practice means that
+for each of the review results. By default, these constants are 2, 0.5 and 0, which in practice means that
 
 - if you click Remembered, the recall level will be doubled;
-- if you click Forgot, the recall level will be halved;
-- and if you click Struggled, the recall will stay the same.
+- and if you click Struggled, the recall level will be halved;
+- if you click Forgot, the recall level will go back to 1 (minimum value).
 
+<!--
 ## Alternative setup
 
 Some articles on spaced repetition recommend that if you forget a card, its recall level should go back to 1 and it should appear
@@ -37,3 +38,4 @@ in your review the next day. If you want to use this approach, it can easily be 
 | Multiplier for Forgot      | 0     | Recall value will be set to 1 (the minimum) |
 
 Naturally, other values for the constants are also possible so you can fine tune your algorith as you see fit. The above is just one of the alternatives.
+-->
